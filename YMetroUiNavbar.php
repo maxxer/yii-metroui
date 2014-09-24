@@ -24,7 +24,7 @@ class YMetroUiNavbar extends CMenu
      * @var string the navbar type. Valid values are TYPE_*.
      * @since 1.0.0
      */
-    public $type = self::TYPE_DARK;
+    public $type;
 
     /**
      * @var string the text for the brand.
